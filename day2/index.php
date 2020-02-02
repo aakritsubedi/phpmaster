@@ -9,11 +9,11 @@
 </head>
 
 <body>
-  <h1> Learning PHP -day1 </h1>
+  <h1> Learning PHP -day2 </h1>
   <ul>
-    <li><a href="helloWorld.php">helloWorld.php</a></li>
-    <li><a href="variables.php">variables.php</a></li>
-    <li><a href="portfolio.php">portfolio.php</a></li>
+    <li><a href="helloWorld.php">controlStructure.php</a></li>
+    <li><a href="todoApp.php">todoApp.php</a></li>
+    <li><a href="portfolio.php">loginApp.php</a></li>
   </ul>
 </body>
 
