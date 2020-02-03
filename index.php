@@ -94,6 +94,30 @@
             </ul>
           </td>
         </tr>
+        <tr>
+          <td>Day 3</td>
+          <td>
+            <ul>
+              <li>Control Structure</li>
+              <li>Simple <code>ToDo App</code></li>
+              <li><code>Login App</code> (without database)</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li><a href="https://github.com/aakritsubedi/phpmaster/blob/master/day2/controlStructure.php">controlStructure.php</a></li>
+              <li><a href="https://github.com/aakritsubedi/phpmaster/blob/master/day2/todoApp.php">todoApp.php</a></li>
+              <li><a href="https://github.com/aakritsubedi/phpmaster/blob/master/day2/controlStructure.php">loginApp.php</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li><a href="day2/controlStructure.php">controlStructure.php</a></li>
+              <li><a href="day2/todoApp.php">todoApp.php</a></li>
+              <li><a href="day2/loginApp.php">loginApp.php</a></li>
+            </ul>
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
