@@ -75,7 +75,7 @@
           <td>
             <ul>
               <li>Control Structure</li>
-              <li>Simple <code>ToDo App</code></li>
+              <li>Simple <code>ToDo App</code>(using Session storage)</li>
               <li><code>Login App</code> (without database)</li>
             </ul>
           </td>
@@ -98,23 +98,23 @@
           <td>Day 3</td>
           <td>
             <ul>
-              <li>Control Structure</li>
-              <li>Simple <code>ToDo App</code></li>
-              <li><code>Login App</code> (without database)</li>
+              <li>Function in PHP</li>
+              <li>OOP concept in PHP</li>
+              <li>Example</li>
             </ul>
           </td>
           <td>
             <ul>
-              <li><a href="https://github.com/aakritsubedi/phpmaster/blob/master/day2/controlStructure.php">controlStructure.php</a></li>
-              <li><a href="https://github.com/aakritsubedi/phpmaster/blob/master/day2/todoApp.php">todoApp.php</a></li>
-              <li><a href="https://github.com/aakritsubedi/phpmaster/blob/master/day2/controlStructure.php">loginApp.php</a></li>
+              <li><a href="#">Function</a></li>
+              <li><a href="#">OOP</a></li>
+              <li><a href="#">Example</a></li>
             </ul>
           </td>
           <td>
             <ul>
-              <li><a href="day2/controlStructure.php">controlStructure.php</a></li>
-              <li><a href="day2/todoApp.php">todoApp.php</a></li>
-              <li><a href="day2/loginApp.php">loginApp.php</a></li>
+              <li><a href="#">Function</a></li>
+              <li><a href="#">OOP</a></li>
+              <li><a href="#">Example</a></li>
             </ul>
           </td>
         </tr>
