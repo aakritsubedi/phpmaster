@@ -99,8 +99,8 @@
           <td>
             <ul>
               <li>Function in PHP</li>
-              <li>OOP concept in PHP</li>
-              <li>Example</li>
+              <li>Example of functional programming</li>
+              <li>Intro to MY SQL database</li>
             </ul>
           </td>
           <td>
