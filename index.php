@@ -99,24 +99,72 @@
           <td>
             <ul>
               <li>Function in PHP</li>
+              <li><code>Inbuilt</code> function in PHP</li>
+              <li><code>User defined</code> function in PHP</li>
               <li>Example of functional programming</li>
-              <li>Intro to MY SQL database</li>
+              <li>Intro to <code>MY SQL database</code></li>
             </ul>
           </td>
           <td>
             <ul>
               <li><a href="https://github.com/aakritsubedi/phpmaster/blob/master/day3/function.php">Function</a></li>
-              <li><a href="https://github.com/aakritsubedi/phpmaster/blob/master/day3/exampleFunction.php">Example (Function)</a></li>
+              <li><a href="https://github.com/aakritsubedi/phpmaster/blob/master/day3/inbuiltFunction.php">Inbuilt function</a></li>
+              <li><a href="https://github.com/aakritsubedi/phpmaster/blob/master/day3/userdefinedFunction.php">User defined function</a></li>
+              <li><a href="https://github.com/aakritsubedi/phpmaster/blob/master/day3/exampleFunction.php">Functional Programming examples</a></li>
               <li><a href="https://github.com/aakritsubedi/phpmaster/blob/master/day3/mysqlIntro.php">MySQL Database</a></li>
             </ul>
           </td>
           <td>
             <ul>
               <li><a href="day3/function.php">Function</a></li>
-              <li><a href="day3/example.php">Example (Function)</a></li>
+              <li><a href="day3/inbuiltFunction.php">Inbuilt Function</a></li>
+              <li><a href="day3/userdefinedFunction.php">User Defined Function</a></li>
+              <li><a href="day3/example.php">Functional programming examples</a></li>
               <li><a href="day3/mysqlIntro.php">MySQL Database</a></li>
             </ul>
           </td>
+        </tr>
+        <tr>
+          <th>Github</th>
+          <td>
+            <ul>
+              <li>basis git command</li>
+              <li>
+                Push your code to <code>Github</code>
+                <ul>
+                  <li>git add .</li>
+                  <li>git commit -m "commit message"</li>
+                  <li>git push origin <_branch_name_> </li>
+                </ul>
+              </li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li><a href="files/atlassian-git-cheatsheet.pdf">GIT Cheatsheat</a></li>
+            </ul>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>Heroku App</th>
+          <td>
+            <ul>
+              <li>Setup <code>Heroku</code> Account</li>
+              <li>Create <code>Heroku App</code></li>
+              <li>Add <code>Procfile</code> for your project</li>
+              <li>Create a <code>repository</code> in Github</li>
+              <li>Link your <code>repository</code> with <code>Heroku App </code> created</li>
+              <li>Setup <code>Deploy</code> method (Github)</li>
+              <li>Push your code to <code>Github</code></li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li><a href="https://www.heroku.com/">Heroku App</a></li>
+            </ul>
+          </td>
+          <td></td>
         </tr>
       </tbody>
     </table>
