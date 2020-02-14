@@ -105,16 +105,16 @@
           </td>
           <td>
             <ul>
-              <li><a href="#">Function</a></li>
-              <li><a href="#">OOP</a></li>
-              <li><a href="#">Example</a></li>
+              <li><a href="https://github.com/aakritsubedi/phpmaster/blob/master/day3/function.php">Function</a></li>
+              <li><a href="https://github.com/aakritsubedi/phpmaster/blob/master/day3/exampleFunction.php">Example (Function)</a></li>
+              <li><a href="https://github.com/aakritsubedi/phpmaster/blob/master/day3/mysqlIntro.php">MySQL Database</a></li>
             </ul>
           </td>
           <td>
             <ul>
-              <li><a href="#">Function</a></li>
-              <li><a href="#">OOP</a></li>
-              <li><a href="#">Example</a></li>
+              <li><a href="day3/function.php">Function</a></li>
+              <li><a href="day3/example.php">Example (Function)</a></li>
+              <li><a href="day3/mysqlIntro.php">MySQL Database</a></li>
             </ul>
           </td>
         </tr>
