@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Learning PHP</title>
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
+
 <body>
   <div class="container-fluid">
     <h1>Learning PHP</h1>
@@ -21,16 +23,16 @@
     </ul>
     <hr>
     <h2>System Setup</h2>
-      <ul>
-        <li>
-          Xampp <a href="https://www.apachefriends.org/index.html">Download Xampp</a>
-          <p>XAMPP is a completely free, easy to install Apache distribution containing MariaDB, PHP, and Perl. The XAMPP open source package has been set up to be incredibly easy to install and to use.</p>
-        </li>
-        <li>
-          Code Editor
-          <p>VS Code, Sublime Text, Atom, Bracket, PhpStorm</p>
-        </li>
-      </ul>
+    <ul>
+      <li>
+        Xampp <a href="https://www.apachefriends.org/index.html">Download Xampp</a>
+        <p>XAMPP is a completely free, easy to install Apache distribution containing MariaDB, PHP, and Perl. The XAMPP open source package has been set up to be incredibly easy to install and to use.</p>
+      </li>
+      <li>
+        Code Editor
+        <p>VS Code, Sublime Text, Atom, Bracket, PhpStorm</p>
+      </li>
+    </ul>
     <hr>
     <h2>Table of Content</h2>
     <table class="table table-hover">
@@ -44,7 +46,7 @@
       </thead>
       <tbody>
         <tr>
-          <td>Day 1</td>
+          <th>Day 1</th>
           <td>
             <ul>
               <li> Server and code editor setup</li>
@@ -71,7 +73,7 @@
           </td>
         </tr>
         <tr>
-          <td>Day 2</td>
+          <th>Day 2</th>
           <td>
             <ul>
               <li>Control Structure</li>
@@ -95,7 +97,7 @@
           </td>
         </tr>
         <tr>
-          <td>Day 3</td>
+          <th>Day 3</th>
           <td>
             <ul>
               <li>Function in PHP</li>
@@ -134,7 +136,8 @@
                 <ul>
                   <li>git add .</li>
                   <li>git commit -m "commit message"</li>
-                  <li>git push origin <_branch_name_> </li>
+                  <li>git push origin <_branch_name_>
+                  </li>
                 </ul>
               </li>
             </ul>
@@ -170,4 +173,5 @@
     </table>
   </div>
 </body>
+
 </html>
