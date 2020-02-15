@@ -1,0 +1,30 @@
+code pre {
+  background-color: #f4f4f4;
+  border: 1px solid #999;
+  border-radius: 5px;
+  display: block;
+  padding: 10px 5px;
+  margin: 5px 0;
+}
+code pre:hover {
+  background-color: #eeeeee;
+}
+.code li {
+  font-size: 87.5%;
+  color: #e83e8c;
+  word-wrap: break-word;
+}
+.code li .syntax{
+  color: #696969;
+  display: block;
+  font-weight: bold;
+}
+.code li .example{
+  color: #808080;
+  display: block;
+  font-weight: light;
+}
+.code li .example:hover{
+  color: #696969;
+  font-weight: bolder;
+}
