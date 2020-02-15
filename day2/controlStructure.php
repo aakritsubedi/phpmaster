@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Control Structure in PHP</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="../assets/css/codeBlock.css">
 </head>
 
 <body>
@@ -42,13 +43,25 @@
       <li>foreach loop</li>
     </ul>
     <hr>
-    <h2>Examples</h2>
-    <code>
+    <h2 class="text-primary">Examples</h2>
+    <h2>if statement</h2>
+    <pre>
+      <code>
       if(condition){
-      //execute when true
+        //execute when true
       }
-
-    </code>
+      </code>
+    </pre>
+    <pre>
+      <code>
+      $username = 'aakrit';
+      $password = "subedi";
+      if ($username == 'aakrit' && $password == 'subedi') {
+        echo "Welcome Aakrit SUbedi";
+      }
+      </code>
+    </pre>
+    <b>Output: </b>
     <?php
     //If Statement
     $username = 'aakrit';
@@ -57,15 +70,29 @@
       echo "Welcome Aakrit SUbedi";
     }
     ?>
-    <h2>If .. else</h2>
-    <code>
+    <h2>If .. else statement</h2>
+    <pre>
+      <code>
       if(cond){
-      //execute when true
+        //execute when true
       }
       esle {
-      //execute when false
+        //execute when false
       }
-    </code>
+      </code>
+    </pre>
+    <pre>
+      <code>
+      $username = 'aakrit';
+      $password = "sagarmatha";
+      if ($username == 'aakrit' && $password == 'subedi') {
+        echo "Welcome Aakrit SUbedi";
+      } else {
+        echo "Welcome guest";
+      }
+      </code>
+    </pre>
+    <b>Output:</b>
     <?php
     //If Statement
     $username = 'aakrit';
@@ -76,29 +103,61 @@
       echo "Welcome guest";
     }
     ?>
-  </div>
-  <?php
-
-  $x = 1;
-  while ($x <= 10) {
-    echo $x;
-    $x++;
-  }
-  ?>
-  <h2>foreach loop</h2>
-  <?php
+    <pre>
+    <code>
+    $x = 1;
+    while ($x <= 10) {
+      echo $x . " ";
+      $x++;
+    }
+  </code>
+  </pre>
+    <b>Output: </b>
+    <?php
+    $x = 1;
+    while ($x <= 10) {
+      echo $x . " ";
+      $x++;
+    }
+    ?>
+    <pre>
+      <code>
+        for($i=1; $i<=10; $i++){
+          echo $i. " ";
+        }
+      </code>
+    </pre>
+    <h2>foreach loop</h2>
+    <pre>
+    <code>
     $studentMarks = array(1, 2, 34, 5, 6, 7, 8, 9, 12, 52);
 
     foreach ($studentMarks as $value) {
       if ($value % 2 == 0) {
-        echo $value . "<br>";
+        echo $value . " ";
       }
     }
-    echo "<hr>";
+    echo " || ";
     for ($i = 0; $i < count($studentMarks); $i++) {
-      echo $studentMarks[$i] . "<br>";
+      echo $studentMarks[$i] . " ";
     }
-  ?>
-</body>
+    </code>
+  </pre>
+  <b>Output: </b>
+  <?php
+  $studentMarks = array(1, 2, 34, 5, 6, 7, 8, 9, 12, 52);
 
+  foreach ($studentMarks as $value) {
+    if ($value % 2 == 0) {
+      echo $value . " ";
+    }
+  }
+  echo " || "; 
+  for ($i = 0; $i < count($studentMarks); $i++) {
+    echo $studentMarks[$i] . " ";
+  }
+  ?>
+  <hr>
+  </div>
+</body>
 </html>

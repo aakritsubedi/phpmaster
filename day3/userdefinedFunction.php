@@ -21,20 +21,20 @@
       A user-defined function declaration starts with the word <code>function</code>:
     </p>
     <h3>Syntax</h3>
-    <code>
-      <pre>
+    <pre>
+      <code>
       function functionName() {
-        code to be executed;
+        pre to be executed;
       }
-      </pre>
-    </code>
+      </code>
+    </pre>
     <hr>
     <h2>Examples</h2>
     <h4>function to add two numbers</h4>
     <ul>
       <li>without parameter</li>
-      <code>
-        <pre>
+      <pre>
+        <code>
           function sum(){
             $a = 5;
             $b = 6;
@@ -42,40 +42,96 @@
 
             echo "The sum of {$a} and {$b} is {$result}";
           }
-        </pre>
-      </code>
+        </code>
+      </pre>
+      <b>Output: </b>
+      <?php
+      function sum()
+      {
+        $a = 5;
+        $b = 6;
+        $result = $a + $b;
+
+        echo "The sum of {$a} and {$b} is {$result}";
+      }
+
+      sum();
+      ?>
       <li>with parameters</li>
-      <code>
-        <pre>
+      <pre>
+        <code>
           function sum($a, $b){
             $result = $a + $b;
 
             echo "The sum of {$a} and {$b} is {$result}";
           }
-        </pre>
-      </code>
+        </code>
+      </pre>
+      <b>Output: </b>
+      <?php
+      function sum1($a, $b)
+      {
+        $result = $a + $b;
+
+        echo "The sum of {$a} and {$b} is {$result}";
+      }
+
+      sum1(9, 15);
+      ?>
       <li>returning value</li>
-      <code>
-        <pre>
-          function sum(){
+      <pre>
+        <code>
+          function sum2(){
             $a = 5;
             $b = 6;
             $result= $a + $b;
 
             return $result;
           }
-        </pre>
-      </code>
+
+          echo "The required result is ". sum2();
+        </code>
+      </pre>
+      <b>Output: </b>
+      <?php
+      function sum2()
+      {
+        $a = 5;
+        $b = 6;
+        $result = $a + $b;
+
+        return $result;
+      }
+
+      echo "The required result is " . sum2();
+      ?>
       <li>default value</li>
-      <code>
-        <pre>
+      <pre>
+        <code>
           function sum($a=5, $b=6){
             $result = $a + $b;
 
             return $result;
           }
-        </pre>
-      </code>
+
+          $res = sum3(9);
+
+          echo "The required result is ". $res;
+        </code>
+      </pre>
+      <b>Output: </b>
+      <?php
+      function sum3($a = 5, $b = 6)
+      {
+        $result = $a + $b;
+
+        return $result;
+      }
+
+      $res = sum3(9);
+
+      echo "The required result is " . $res;
+      ?>
     </ul>
   </div>
 </body>

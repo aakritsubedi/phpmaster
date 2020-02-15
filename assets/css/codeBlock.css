@@ -1,23 +1,19 @@
-code pre {
+pre  code {
   background-color: #f4f4f4;
   border: 1px solid #999;
   border-radius: 5px;
   display: block;
   padding: 10px 5px;
-  margin: 5px 0;
+  margin-bottom: -25px;
 }
-code pre:hover {
+pre code:hover {
   background-color: #eeeeee;
 }
 .code li {
   font-size: 87.5%;
   color: #e83e8c;
+  margin-bottom: 10px;
   word-wrap: break-word;
-}
-.code li .syntax{
-  color: #696969;
-  display: block;
-  font-weight: bold;
 }
 .code li .example{
   color: #808080;

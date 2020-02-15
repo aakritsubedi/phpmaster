@@ -36,13 +36,11 @@
     <hr>
     <ul class="code">
       <li>SELECT 
-        
-        <span class="syntax"> SELECT <_columns_> from <_tableName_></span>
-        <code>
-          <pre>
+        <pre>
+          <code>
           SELECT column1, column2, ... FROM table_name;
-          </pre>
-        </code>
+          </code>
+        </pre>
         Examples
         <span class="example">SELECT * FROM students;</span>
         <span class="example">SELECT student_name, contact_no FROM students;</span>
@@ -51,7 +49,13 @@
         <span class="example">SELECT column1, column2, ...FROM table_name WHERE condition1 AND condition2 OR condition3 NOT condition3...;</span>
         <span class="example">SELECT column1, column2, ... FROM table_name ORDER BY column1, column2, ... ASC|DESC;</span>
       </li>
-      
+      <li>INSERT
+        <pre>
+          <code>
+          INSERT INTO table_name VALUES (value1, value2, value3, ...);
+          </code>
+        </pre>
+      </li>
     </ul>
   </div>
 </body>

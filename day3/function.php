@@ -14,7 +14,7 @@
   <div class="container">
     <h1>Function in PHP</h1>
     <p>
-      PHP functions are similar to other programming languages. A function is a piece of code which takes one more input in the form of parameter and does some processing and returns a value.
+      PHP functions are similar to other programming languages. A function is a piece of pre which takes one more input in the form of parameter and does some processing and returns a value.
     </p>
     <p>
       There are two parts −
@@ -26,8 +26,8 @@
       <ul>
         <li>
           without parameter
-          <code>
-            <pre>
+          <pre>
+            <code>
               /* Defining a PHP Function */
               function writeMessage() {
                   echo "You are really a nice person, Have a nice time!";
@@ -35,13 +35,13 @@
               
               /* Calling a PHP Function */
               writeMessage();
-         </pre>
-          </code>
+            </code>
+          </pre>
         </li>
         <li>
           with parameter
-          <code>
-            <pre>
+          <pre>
+            <code>
               /* Defining a PHP Function */
               function addFunction($num1, $num2) {
                 $sum = $num1 + $num2;
@@ -50,13 +50,13 @@
               
               /* Calling a PHP Function */
               addFunction(10, 20);
-            </pre>
-          </code>
+            </code>
+          </pre>
         </li>
         <li>
           returning value
-          <code>
-            <pre>
+          <pre>
+            <code>
                 /* Defining a PHP function */
                 function addFunction($num1, $num2) {
                     $sum = $num1 + $num2;
@@ -67,21 +67,21 @@
                 $return_value = addFunction(10, 20);
                 
                 echo "Returned value from the function : $return_value";
-              </pre>
-          </code>
+            </code>
+          </pre>
         </li>
         <li>
           default parameter
-          <code>
-            <pre>
+          <pre>
+            <code>
                 function printMe($param = NULL) {
                     print $param;
                 }
                 
                 printMe("This is test");
                 printMe();
-                </pre>
-          </code>
+            </code>
+          </pre>
         </li>
       </ul>
     </p>
