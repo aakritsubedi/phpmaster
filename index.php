@@ -169,6 +169,38 @@
           </td>
           <td></td>
         </tr>
+        <tr>
+          <th>Day4</th>
+          <td>
+            <ul>
+              <li>Intro to <code>MySQL database</code></li>
+              <li><code>CRUD</code> SQL queries</li>
+              <li><code>phpMyAdmin</code> Overview
+                <ul>
+                  <li>Introduction</li>
+                  <li>Creating database</li>
+                  <li>Creating table</li>
+                  <li>relation between tables</li>
+                </ul>
+              </li>
+              <li>Example Database and Table setup in phpMyAdmin</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li><a href="">mysqlIntro.php</a></li>
+              <li><a href="">introSQL.php</a></li>
+              <li><a href="">phpmyadmin.php</a></li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li><a href="day3/mysqlIntro.php">mysqlIntro.php</a></li>
+              <li><a href="day4/introSQL.php">introSQL.php</a></li>
+              <li><a href="day4/phpmyadmin.php">phpmyadmin.php</a></li>
+            </ul>
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
