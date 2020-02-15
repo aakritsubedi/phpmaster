@@ -15,6 +15,11 @@ pre code:hover {
   margin-bottom: 10px;
   word-wrap: break-word;
 }
+.code li .def{
+  color: #000000;
+  display: block;
+  font-weight: lighter;
+}
 .code li .example{
   color: #808080;
   display: block;
