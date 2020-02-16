@@ -241,9 +241,9 @@
               </td>
               <td>
                 <ul>
-                  <li><a href="">mysqlIntro.php</a></li>
-                  <li><a href="">introSQL.php</a></li>
-                  <li><a href="">phpmyadmin.php</a></li>
+                  <li><a href="https://github.com/aakritsubedi/phpmaster/blob/master/day3/mysqlIntro.php">mysqlIntro.php</a></li>
+                  <li><a href="https://github.com/aakritsubedi/phpmaster/blob/master/day4/introSQL.php">introSQL.php</a></li>
+                  <li><a href="https://github.com/aakritsubedi/phpmaster/blob/master/day4/phpmyadmin.php">phpmyadmin.php</a></li>
                 </ul>
               </td>
               <td>
@@ -251,6 +251,30 @@
                   <li><a href="day3/mysqlIntro.php">mysqlIntro.php</a></li>
                   <li><a href="day4/introSQL.php">introSQL.php</a></li>
                   <li><a href="day4/phpmyadmin.php">phpmyadmin.php</a></li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th>Day5</th>
+              <td>
+                <ul>
+                  <li>MySQL and PHP</li>
+                  <li>CRUD Queries</li>
+                  <li>Login/SignUp System</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li><a href="day5/mysql_and_php.php">MySQL & PHP</a></li>
+                  <li><a href="day5/CRUD.php">CRUD Queries</a></li>
+                  <li><a href="day5/loginsys.php">Login/SignUp System</a></li>
                 </ul>
               </td>
             </tr>
