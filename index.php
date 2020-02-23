@@ -278,6 +278,27 @@
                 </ul>
               </td>
             </tr>
+            <tr>
+              <th>SDLC</th>
+              <td>
+                <ul>
+                  <li>Introduction</li>
+                  <ul>
+                    <li>Waterfall Model</li>
+                    <li>Iterative Model</li>
+                    <li>Spiral Model</li>
+                    <li>Prototype Model</li>
+                    <li>Agile Model</li>
+                  </ul>
+                </ul>
+              </td>
+              <td></td>
+              <td>
+                <ul>
+                  <li><a href="SDLC/index.php">SDLC</a></li>
+                </ul>
+              </td>
+            </tr>
           </tbody>
         </table>
       </div>
