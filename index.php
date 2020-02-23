@@ -296,6 +296,7 @@
               <td>
                 <ul>
                   <li><a href="SDLC/index.php">SDLC</a></li>
+                  <li><a href="https://existek.com/blog/sdlc-models/" target="_blank">SDLC Models</a></li>
                 </ul>
               </td>
             </tr>
